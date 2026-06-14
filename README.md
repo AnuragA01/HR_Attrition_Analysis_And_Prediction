@@ -206,7 +206,7 @@ Learning reference for end-to-end ML projects
 
 ## 👤 Author
 
-Pranav Patil
+Anurag asKI
 Aspiring Data Analyst / Machine Learning Enthusiast
 
 🔗 GitHub: https://github.com/pranav2221

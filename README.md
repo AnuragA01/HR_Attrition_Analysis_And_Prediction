@@ -1,10 +1,14 @@
-📊 HR Attrition Analysis & Prediction System
-An end-to-end data analytics and machine learning project that analyzes employee attrition patterns and predicts attrition risk using an ensemble of models. The project also includes an interactive Streamlit web application for real-time predictions.
+## 📊 HR Attrition Analysis & Prediction System
 
-🔍 Problem Statement
-Employee attrition leads to increased hiring costs, loss of experienced talent, and reduced productivity. Organizations often struggle to identify employees who are at risk of leaving at an early stage.
+An end-to-end data analytics and machine learning project that analyzes employee attrition patterns and predicts attrition risk using an ensemble of models. 
+The project also includes an interactive Streamlit web application for real-time predictions.
 
-This project aims to:
+## 🔍 Problem Statement
+
+Employee attrition leads to increased hiring costs, loss of experienced talent, and reduced productivity. 
+Organizations often struggle to identify employees who are at risk of leaving at an early stage.
+
+ This project aims to:
 
 Analyze key factors influencing employee attrition
 
@@ -12,7 +16,8 @@ Build predictive models to identify high-risk employees
 
 Provide an interactive tool for HR teams to make proactive retention decisions
 
-🎯 Project Objectives
+## 🎯 Project Objectives
+
 Perform data cleaning and exploratory data analysis (EDA)
 
 Extract business insights using SQL
@@ -23,7 +28,8 @@ Create interactive dashboards for visualization
 
 Deploy a user-friendly web application for real-time prediction
 
-🧠 Solution Overview
+## 🧠 Solution Overview
+
 The system predicts employee attrition risk using an ensemble of machine learning models:
 
 Logistic Regression
@@ -34,14 +40,16 @@ Random Forest
 
 A majority-voting ensemble strategy is used for final decision-making, along with explainable risk factors to support HR decision-making.
 
-🔗 Live Application
+## 🔗 Live Application
+
 The HR Attrition Prediction System is deployed and accessible online:
 
-👉 Live Demo: https://.streamlit.app](https://hrattritionanalysisandprediction-3sjppzwcmwmdc9yyavtmeer.streamlit.app/
+👉 **Live Demo:** https://<your-app-name>.streamlit.app](https://hrattritionanalysisandprediction-3sjppzwcmwmdc9yyavtmeer.streamlit.app/
 
 Users can interactively input employee details and receive real-time attrition risk predictions along with explainable insights.
 
-🛠️ Tech Stack
+
+## 🛠️ Tech Stack
 Programming & Analysis
 
 Python
@@ -74,10 +82,40 @@ FastAPI (Backend – local & architectural layer)
 
 Git & GitHub
 
-📁 Project Structure
-HR_Attrition_Analysis_And_Prediction/ │ ├── Datasets/ │ ├── HR_Attrition_Original.csv │ └── HR_Attrition_SQL.csv │ ├── FastAPI_Backend/ │ └── app.py │ ├── Jupyter_Notebooks/ │ ├── HR_Employee_Attrition_EDA.ipynb │ └── Prediction_Model.ipynb │ ├── SQL_Analysis/ │ └── HR_Attrition.sql │ ├── PowerBI_Dashboard/ │ └── HR_ATTRITION_ANALYSIS_Dashboard.pbix │ ├── models/ │ ├── decision_tree.pkl │ ├── logistic_model.pkl │ ├── random_forest.pkl │ └── scaler.pkl │ ├── .gitignore ├── README.md ├── requirements.txt └── streamlit_app.py
+## 📁 Project Structure
+HR_Attrition_Analysis_And_Prediction/
+│
+├── Datasets/
+│   ├── HR_Attrition_Original.csv
+│   └── HR_Attrition_SQL.csv
+│
+├── FastAPI_Backend/
+│   └── app.py
+│
+├── Jupyter_Notebooks/
+│   ├── HR_Employee_Attrition_EDA.ipynb
+│   └── Prediction_Model.ipynb
+│
+├── SQL_Analysis/
+│   └── HR_Attrition.sql
+│
+├── PowerBI_Dashboard/
+│   └── HR_ATTRITION_ANALYSIS_Dashboard.pbix
+│
+├── models/
+│   ├── decision_tree.pkl
+│   ├── logistic_model.pkl
+│   ├── random_forest.pkl
+│   └── scaler.pkl
+│
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── streamlit_app.py
 
-📊 Key Insights from Analysis
+
+## 📊 Key Insights from Analysis
+
 Highest attrition occurs in the early years of employment
 
 Overtime significantly increases attrition risk
@@ -88,12 +126,18 @@ Salary alone does not guarantee retention
 
 Ensemble models provide more reliable predictions than a single model
 
-🤖 Machine Learning Models
-Model Purpose Logistic Regression Interpretable baseline model Decision Tree Rule-based decision logic Random Forest Robust ensemble learner
+## 🤖 Machine Learning Models
+Model	Purpose
+Logistic Regression	Interpretable baseline model
+Decision Tree	Rule-based decision logic
+Random Forest	Robust ensemble learner
 
-Final Prediction Logic: Majority voting among all three models Threshold-based classification (High / Low risk)
+Final Prediction Logic:
+Majority voting among all three models
+Threshold-based classification (High / Low risk)
 
-🌐 Streamlit Web Application
+## 🌐 Streamlit Web Application
+
 The deployed Streamlit app allows users to:
 
 Enter employee details via sliders and dropdowns
@@ -118,20 +162,28 @@ Years at Company
 
 Overtime status
 
-🚀 Deployment
-The interactive web application is deployed using Streamlit Cloud
-Trained machine learning models are loaded directly within the Streamlit app
-The repository also includes a FastAPI-based backend to demonstrate production-ready API architecture (used locally / for scalable deployment)
+## 🚀 Deployment
+
+- The interactive web application is deployed using **Streamlit Cloud**
+- Trained machine learning models are loaded directly within the Streamlit app
+- The repository also includes a **FastAPI-based backend** to demonstrate production-ready API architecture (used locally / for scalable deployment)
+
 This approach ensures both ease of access for users and clean separation of concerns in system design.
 
-▶️ How to Run Locally
-1️⃣ Clone the repository git clone https://github.com//HR-Attrition-Analysis-Prediction.git cd HR-Attrition-Analysis-Prediction
 
-2️⃣ Install dependencies pip install -r requirements.txt
+## ▶️ How to Run Locally
+1️⃣ Clone the repository
+git clone https://github.com/<your-username>/HR-Attrition-Analysis-Prediction.git
+cd HR-Attrition-Analysis-Prediction
 
-3️⃣ Run Streamlit app streamlit run streamlit_app.py
+2️⃣ Install dependencies
+pip install -r requirements.txt
 
-🧪 Model Validation
+3️⃣ Run Streamlit app
+streamlit run streamlit_app.py
+
+## 🧪 Model Validation
+
 The system was tested using:
 
 High-risk employee profiles
@@ -142,7 +194,8 @@ Borderline and contradictory cases
 
 This ensured consistent predictions and meaningful explanations across scenarios.
 
-📌 Use Cases
+## 📌 Use Cases
+
 HR attrition risk assessment
 
 Workforce planning and retention strategies
@@ -150,3 +203,11 @@ Workforce planning and retention strategies
 Employee engagement analysis
 
 Learning reference for end-to-end ML projects
+
+## 👤 Author
+
+Pranav Patil
+Aspiring Data Analyst / Machine Learning Enthusiast
+
+🔗 GitHub: https://github.com/pranav2221
+
